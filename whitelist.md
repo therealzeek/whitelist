@@ -1,6 +1,8 @@
 local WhitelistedUserIds = {
     ["243805732"] = true, --
-    ["buyer"]
+    ["2233820804"] = true
+    ["3297713064"] = true
+    ["5367063377"] = true
 }
 
 local Player = game.Players.LocalPlayer
@@ -11,7 +13,7 @@ local function isWhitelisted(player)
 end
 
 if isWhitelisted(Player) then
-loadstring("https://raw.githubusercontent.com/therealzeek/aura.cc/main/README.md")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Nara.cc/main/script.md", true))()
 else
     print("You are not whitelisted")
 end
