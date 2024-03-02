@@ -2,7 +2,8 @@ local WhitelistedUserIds = {
     ["243805732"] = true, --
     ["2233820804"] = true,
     ["3297713064"] = true,
-    ["5367063377"] = true
+    ["5367063377"] = true,
+    ["2502514909"] = true
 }
 
 local Player = game.Players.LocalPlayer
