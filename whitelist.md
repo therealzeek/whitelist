@@ -1,5 +1,5 @@
 local WhitelistedUserIds = {
-    ["243805732"] = true, --
+    ["243805732"] = true,
     ["243805732"] = true,
     ["2233820804"] = true,
     ["5367063377"] = true,
