@@ -9,7 +9,6 @@ local function isWhitelisted(player)
 end
 
 if isWhitelisted(Player) then
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Nara.cc/main/script1.lua", true))()", true))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Nara.cc/main/script1.lua"))()
 else
     print("You are not whitelisted")
