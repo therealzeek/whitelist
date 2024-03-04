@@ -1,15 +1,24 @@
+-- Define the list of whitelisted user IDs
 local WhitelistedUserIds = {
-    ["243805732"] = true,
     ["243805732"] = true,
     ["2233820804"] = true,
     ["5367063377"] = true,
     ["2502514909"] = true,
     ["4999596731"] = true
+    -- Add more user IDs as needed
+}
+
+-- Function to check if a player's ID is whitelisted
 local function isWhitelisted(player)
+    local playerId = tostring(player.UserId)
+    return WhitelistedUserIds[playerId] == true
 end
 
-if isWhitelisted(Player) then
+-- Check if the player's ID is whitelisted
+if isWhitelisted(game.Players.LocalPlayer) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Nara.cc/main/script1.lua"))()
 else
-    print("You are not whitelisted")
+    -- Code for non-whitelisted players
+    print("Sorry, you are not whitelisted.")
+    -- You can kick or restrict access for non-whitelisted players here
 end
