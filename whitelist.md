@@ -4,7 +4,8 @@ local WhitelistedUserIds = {
     ["2233820804"] = true,
     ["5367063377"] = true,
     ["2502514909"] = true,
-    ["4999596731"] = true
+    ["4999596731"] = true,
+    ["1833432678"] = true
     -- Add more user IDs as needed
 }
 
