@@ -22,7 +22,8 @@ local function isWhitelisted(player)
 end
 
 -- Check if the player's ID is whitelisted
-if isWhitelisted(game.Players.LocalPlayer) then
+local player = game.Players.LocalPlayer
+if player and player:IsA("Player") and isWhitelisted(player) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/therealzeek/Nara.cc/main/script1.lua"))()
 else
     -- Code for non-whitelisted players
